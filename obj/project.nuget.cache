@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zZPShN+x4iSLWDheg/nSKWcn6feZvbx3i8voxs2qlCn1kpIC6kd2lcIdFIPrP6ESatN5xapPds+wp/xbGy3Ggw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\agiattin\\nelnetProjects\\TicketPricesExercise\\TicketPricesExercise.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\agiattin\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
