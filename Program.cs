@@ -8,15 +8,17 @@ namespace TicketPricesExercise
         {
             if (age < 0)
             {
-                throw new ArithmeticException("Age must begreater than 0.");
+                throw new ArgumentOutOfRangeException("age", $"Age must begreater than 0. Recieved age: {age} ");
             }
         }
+        
         static void Main(string[] args)
         {
             bool isStudent = false;
             int age;
             int price = 14;
             char student;
+           
 
 
             Console.WriteLine("Enter your age:");
@@ -26,11 +28,11 @@ namespace TicketPricesExercise
             {
                 checkAge(age);
             }
-            catch (ArithmeticException e)
+            catch (ArgumentOutOfRangeException e)
             {
                 // Error
                 Console.WriteLine("Something went wrong.", e.GetType().Name);
-                throw new ArithmeticException("Age must be greater than 0.", e);
+                throw new ArgumentOutOfRangeException("age", $"Age must be greater than 0. Recieved age: {age} "); 
             }
             finally
             {
